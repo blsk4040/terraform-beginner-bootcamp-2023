@@ -213,7 +213,7 @@ We can output this chnageset ie. "Plan" to be passed to an apply, but often you 
 
 `terraform apply`
 
-This will run a plan and pass the chnageset to be excuted by terraform. Apply should prompt us with a `yes` or `no` .
+This will run a plan and pass the changeset to be excuted by terraform. Apply should prompt us with a `yes` or `no` .
 
 If we want to automate the `yes` we can apply this by this command `terraform apply --auto-approve` .
 
@@ -223,6 +223,11 @@ If we want to automate the `yes` we can apply this by this command `terraform ap
 This will destroy / delete the AWS bucket created via terraform CLI
 
 You can also the auto approve flag to skip the approve prompt eg. `terraform apply --auto-approve`
+
+#### Creating AWS Bucket in Terraform
+Remember to alway create AWS S3 bucket name in lower cases.
+
+[AWS S3 Bucket rule](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
 
 #### Terrafrom Lock Files
 
