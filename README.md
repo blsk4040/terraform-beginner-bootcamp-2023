@@ -282,4 +282,8 @@ NB: Remember to replace or copy the token from token page .
 }
 ```
 
+We have automate this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
+
+
+
 
