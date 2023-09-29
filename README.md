@@ -1,5 +1,13 @@
 # Terraform Beginner Bootcamp 2023
 
+## Table of Content
+
+- [Semantic Versioning](#semantic-versioning)
+- [Install the Terraform CLI](#install-the-terraform-cli)
+- [Considerations with the Terraform CLI changes](#considerations-with-the-terraform-cli-changes)
+
+
+
 ## Semantic Versioning :mage:
 
 This project is going to utilize semantic versioning for its tagging.
@@ -15,7 +23,7 @@ The general format:
 
 ## Install the Terraform CLI
 
-### Considerations with the Terrafrom CLI changes
+### Considerations with the Terraform CLI changes
 
 The Terraform CLI installation instructions have chnanged due to gpg keyring changes. So we need to refer to the latest install CLI instructions via Terraform Documentation and chnage the scripting for install.
 
