@@ -6,7 +6,4 @@
 
 ## Extras
 - [Github Markdown TOC Generator](#https://ecotrust-canada.github.io/markdown-toc/)
-<<<<<<< HEAD
-=======
 - [Github Markdown TOC Generator](#https://derlin.github.io/bitdowntoc/)
->>>>>>> refs/remotes/origin/main
